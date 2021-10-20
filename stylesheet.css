@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;1,400&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #b3cdd1;
+    background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+    font-family: 'Raleway', 'sans-serif';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.contenedor-preguntas{
+    background-color: #fff ;
+    width:400px ;
+    border-radius: 10px;
+    box-shadow:  0 0 10px 2px rgba(100, 100, 100, 0.2);
+    width: 600px;   
+    max-width: 100%;
+}
+
+.cabeza-preguntas{
+    padding:2rem;
+}
+
+h2{
+    margin:2;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+
+}   
+
+ul li{  
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+button{
+    background-color:#686de0;
+    display: block;
+    color:white;
+    border: none;
+    font-family: inherit;
+    font-size:1.1rem;
+    width:100%;
+    padding: 1.3rem;
+}
+
+button:hoover {
+    background-color: #4348c4;
+
+}
